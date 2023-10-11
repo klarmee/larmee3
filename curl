@@ -1,4 +1,4 @@
 # curl each line in list.txt
 while read p; do
   curl -O "$p"
-done <list.txt
+done <out.txt

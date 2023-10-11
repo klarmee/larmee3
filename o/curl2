@@ -1,0 +1,4 @@
+#!/bin/bash
+for i in {0..9}; do
+    curl -o "apartment${i}" "https://apartment.gallery/$i.jpg"
+done
